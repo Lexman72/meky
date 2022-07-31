@@ -1,0 +1,21 @@
+{
+  "name": "killua-zoldyck",
+  "description": "WhatsApp Bot Using Lib Baileys",
+  "repository": "https://github.com/zhwzein/Killua-Zoldyck",
+  "logo": "https://zenzapis.xyz/images/icon.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp self", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

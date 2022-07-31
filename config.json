@@ -1,0 +1,21 @@
+{
+  "APIs": {
+    "zenz": "https://zenzapis.xyz",
+    "apikey": "1b0b23b09c"
+  },
+  "options": {
+    "autoRead": false,
+    "self": false,
+    "limitCount": 20,
+    "limitGame": 20
+  },
+  "exif": {
+    "packname": "zenzapi",
+    "author": "https://zenzapi.xyz"
+  },
+  "owner": [
+    "62895324139997"
+  ],
+  "timezone": "Asia/Jakarta",
+  "footer": "Powered by https://zenzapis.xyz"
+}
